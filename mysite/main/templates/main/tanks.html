@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>@projects</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'main/assets/favicon.ico' %}"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'main/css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <div class="text-center mt-5">
+        <h2>Upload Screenshot</h2>
+        <input type="file" id="image_input" accept="image/jpeg, image/png, image/jpg"><img id="image">
+    </div>
+    <canvas id="cv" width="672" height="310"></canvas>
+    <script src="{% static 'main/js/tanks.js' %}"></script>
+</html>
