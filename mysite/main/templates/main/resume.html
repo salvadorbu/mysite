@@ -29,11 +29,20 @@
           </ul>
           <body>
             <div class="text-center h-75">
-              <iframe src="{% static 'main/archives/SalvadorBuenadichaCalvoResume.pdf' %}" width="900px" height="800px">
+              <iframe src="{% static 'main/archives/resume.pdf' %}" width="900px" height="800px">
               </iframe>
             </div>
           </body>
-    <div class="fixed-bottom text-center">
-      <p>&copy; Salvador Buenadicha 2023</p>
-</div>
+          <div class="fixed-bottom text-center">
+            <style>
+              embed {
+                height: 2.0rem;
+              }
+            </style>
+            <div class="icons-row">
+              <a href="https://www.github.com/salvadorbu" class="svg"><embed src="{% static 'main/assets/githubvec.svg' %}"/></a>
+              <a href="https://www.linkedin.com/in/salvador-buenadicha-calvo-59b602241/" class="svg"><embed src="{% static 'main/assets/linkedin.svg' %}"/></a>
+            </div>
+            <p>&copy; Salvador Buenadicha 2023</p>
+      </div>
 </html>
