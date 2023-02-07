@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>@projects</title>
+        <title>@contact</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{% static 'main/assets/favicon.ico' %}"/>
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -29,9 +29,17 @@
           </ul>
     <div class="text-center">
       <h1>Send Message</h1>
+      <input type="text" id="Name" name="Name" placeholder="Name">
     </div>
-      <label for="comment">Comment:</label>
-      <textarea class="form-control" rows="5" id="comment"></textarea>
+    <div class="text-center">
+      <input type="email" id="Email" name="email" placeholder="Email">
+    </div>
+    <div class="text-center">
+      <textarea type="text" id="message" name="Message" placeholder="Enter message"></textarea>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-primary btn-lg">Send</button>
+    </div>
       <div class="fixed-bottom text-center">
         <style>
           embed {
