@@ -11,6 +11,3 @@ def resume(request):
 
 def contact(request):
     return render(request, 'main/contact.html')
-
-def canvas(request):
-    return render(request, 'main/canvastesting.html')
